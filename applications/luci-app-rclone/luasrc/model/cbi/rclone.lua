@@ -50,10 +50,10 @@ m =
         ' <br/> <br/> ' .. translate('rclone state') .. ' : ' .. state_msg .. '<br/> <br/>'
         .. address_msg ..
         translate('Installed Web Interface') ..                                                                                                                     
-        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="cbi-button" style="margin: 0 5px;" value=" ' ..                                            
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="btn cbi-button" style="margin: 0 5px;" value=" ' ..                                            
         translate('Webui React') ..                                                                                                                                 
         " \" onclick=\"window.open('http://'+window.location.hostname+'/rclone-webui-react')\"/>" ..                                                                
-        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="cbi-button" style="margin: 0 5px;" value=" ' ..                                            
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="btn cbi-button" style="margin: 0 5px;" value=" ' ..                                            
         translate('RcloneNg') ..                                                                                                                                    
         " \" onclick=\"window.open('http://'+window.location.hostname+'/RcloneNg')\"/> <br/><br/>"  
 )
@@ -67,7 +67,7 @@ m =
         .. address_msg ..
         translate('Installed Web Interface') ..   
 	
-        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="cbi-button" style="margin: 0 5px;" value=" ' ..                                            
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="btn cbi-button" style="margin: 0 5px;" value=" ' ..                                            
         translate('Webui React') ..                                                                                                                                 
         " \" onclick=\"window.open('http://'+window.location.hostname+'/rclone-webui-react')\"/>" 
 )
@@ -81,7 +81,7 @@ m =
         .. address_msg ..
         translate('Installed Web Interface') ..     
 	
-        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="cbi-button" style="margin: 0 5px;" value=" ' ..                                            
+        '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" class="btn cbi-button" style="margin: 0 5px;" value=" ' ..                                            
         translate('RcloneNg') ..                                                                                                                                    
         " \" onclick=\"window.open('http://'+window.location.hostname+'/RcloneNg')\"/> <br/><br/>"  
 )

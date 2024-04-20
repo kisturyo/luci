@@ -1,13 +1,19 @@
-# SPDX-License-Identifier: GPL-3.0-only
-#
-# Copyright (C) 2021-2022 ImmortalWrt.org
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=LuCI for CPU Freq Setting
-LUCI_DEPENDS:=@(arm||aarch64)
+LUCI_TITLE:=LuCI for misc configure
 LUCI_PKGARCH:=all
+LUCI_DEPENDS:=+ethtool
+PKG_VERSION:=1.8.6-3
+PKG_RELEASE:=
 
-include ../../luci.mk
+define Package/luci-app-cpufreq/conffiles
+/etc/config/cpufreq
+/etc/config/tuning
+/etc/config/tuning_boot
+/etc/config/tuning_net
+endef
+
+include ../luci-alias.mk
 
 # call BuildPackage - OpenWrt buildroot signature

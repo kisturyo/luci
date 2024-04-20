@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh-Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: luasrc/model/cbi/usb_printer.lua:128
+msgid "Bidirectional mode"
+msgstr "雙向模式"
+
+#: luasrc/model/cbi/usb_printer.lua:90
+msgid "Bindings"
+msgstr "綁定"
+
+#: luasrc/model/cbi/usb_printer.lua:83
+msgid "Description"
+msgstr "說明"
+
+#: luasrc/model/cbi/usb_printer.lua:81
+msgid "Detected printers"
+msgstr "檢測到的印表機"
+
+#: luasrc/model/cbi/usb_printer.lua:96
+msgid "Device"
+msgstr "設備"
+
+#: luasrc/model/cbi/usb_printer.lua:86
+msgid "Device Name"
+msgstr "設備名"
+
+#: luasrc/model/cbi/usb_printer.lua:103
+msgid "Interface"
+msgstr "介面卡"
+
+#: luasrc/model/cbi/usb_printer.lua:122
+msgid "Port"
+msgstr "埠"
+
+#: luasrc/model/cbi/usb_printer.lua:84
+msgid "Printer Model"
+msgstr "印表機型號"
+
+#: luasrc/model/cbi/usb_printer.lua:21
+msgid ""
+"Shares multiple USB printers via TCP/IP.<br />When modified bingings, re-"
+"plug usb connectors to take effect.<br />This module requires kmod-usb-"
+"printer."
+msgstr ""
+"通過 TCP/IP 共享 USB 印表機。<br />修改設定後，請重新連接印表機以使設定生效。"
+"<br />此模組需要 kmod-usb-printer 支持。"
+
+#: luasrc/model/cbi/usb_printer.lua:103
+msgid "Specifies the interface to listen on."
+msgstr "指定要監聽的介面卡。"
+
+#: luasrc/model/cbi/usb_printer.lua:122
+msgid "TCP listener port."
+msgstr "TCP 監聽埠。"
+
+#: luasrc/controller/usb_printer.lua:28 luasrc/model/cbi/usb_printer.lua:20
+msgid "USB Printer Server"
+msgstr "USB 列印伺服器"
+
+#: luasrc/model/cbi/usb_printer.lua:85
+msgid "VID/PID"
+msgstr ""
+
+#: luasrc/model/cbi/usb_printer.lua:94
+msgid "enable"
+msgstr "啟用"
+
+#~ msgid "Settings"
+#~ msgstr "設定"
+
+#~ msgid "NAS"
+#~ msgstr "網路儲存"
+
+#~ msgid "Architecture"
+#~ msgstr "架構"

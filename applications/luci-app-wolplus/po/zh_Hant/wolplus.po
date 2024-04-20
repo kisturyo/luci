@@ -1,0 +1,23 @@
+msgid "wolplus"
+msgstr "網路喚醒++"
+
+msgid "Wake up your LAN device"
+msgstr "喚醒你的區域網路設備"
+
+msgid "macclient"
+msgstr "設備列表"
+
+msgid "name"
+msgstr "名稱"
+
+msgid "macaddr"
+msgstr "用戶端MAC"
+
+msgid "maceth"
+msgstr "網路介面卡"
+
+msgid "awake"
+msgstr "喚醒"
+
+msgid "Please [Save & Apply] your changes first"
+msgstr "請先保存並應用您的設定"

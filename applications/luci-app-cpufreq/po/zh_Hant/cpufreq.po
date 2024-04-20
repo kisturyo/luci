@@ -1,0 +1,230 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+msgid "Tuning"
+msgstr "雜項設定"
+
+msgid "CPU Tuning"
+msgstr "CPU調節"
+
+msgid "Manage CPU performance over LuCI."
+msgstr "通過LuCI調節CPU性能"
+
+msgid "CPU frequence:"
+msgstr "CPU頻率:"
+
+msgid "temperature:"
+msgstr "核心溫度:"
+
+msgid "CPUFreq governor"
+msgstr "CPU性能策略"
+
+msgid "Apply"
+msgstr "應用"
+
+msgid "Default (Take effect after reboot)"
+msgstr "默認（重啟後生效）"
+
+msgid "conservative"
+msgstr "Conservative(平滑)"
+
+msgid "userspace"
+msgstr "手動/固定頻率"
+
+msgid "powersave"
+msgstr "節能模式"
+
+msgid "ondemand"
+msgstr "自動調節"
+
+msgid "performance"
+msgstr "性能模式"
+
+msgid "interactive"
+msgstr "Interactive(靈敏)"
+
+msgid "schedutil"
+msgstr "基於調度器"
+
+msgid "It is recommended to use 'ondemand' or 'schedutil'"
+msgstr "推薦使用“自動調節”或“基於調度器”"
+
+msgid "Frequency"
+msgstr "頻率"
+
+msgid "Pay attention to heat dissipation when choosing high frequency"
+msgstr "選擇高頻時注意散熱"
+
+msgid "Fan trigger temperature"
+msgstr "風扇啟動溫度"
+
+msgid "Fan temperature hysteresis"
+msgstr "風扇溫度容錯"
+
+msgid "Set a larger value to avoid frequent restart of the fan"
+msgstr "設定更大的值以避免頻繁重啟風扇"
+
+msgid "IPK Mirror"
+msgstr "IPK鏡像伺服器"
+
+msgid "Select IPK Mirror server"
+msgstr "選擇IPK鏡像伺服器"
+
+msgid "Mirror server"
+msgstr "鏡像伺服器"
+
+msgid "Tsinghua University"
+msgstr "清華大學"
+
+msgid "USTC"
+msgstr "中國科學技術大學"
+
+msgid "Alibaba Cloud"
+msgstr "阿里雲"
+
+msgid "Tencent Cloud"
+msgstr "騰訊雲"
+
+msgid "CERNET 302"
+msgstr "高校聯合鏡像站（智慧選擇最近大學鏡像站）"
+
+msgid "SUSTech"
+msgstr "南方科技大學"
+
+msgid "Lanzhou University"
+msgstr "蘭州大學"
+
+msgid "Chinese Academy of Sciences"
+msgstr "中國科學院"
+
+msgid "NYIST"
+msgstr "南洋理工大學"
+
+msgid "SJTU"
+msgstr "上海交通大學"
+
+msgid "CQUPT"
+msgstr "重慶郵電大學"
+
+msgid "Qilu University of Technology"
+msgstr "齊魯工業大學"
+
+msgid "Boot"
+msgstr "啟動"
+
+msgid "Delay before disk mounting"
+msgstr "掛載前等待磁碟"
+
+msgid "Wait for the hard disk to initialize to solve the problem that the hard disk is not mounted when some applications that rely on the hard disk are started."
+msgstr "等待硬碟初始化，以解決部分依賴硬碟的應用啟動時硬碟還未掛載的問題"
+
+msgid "Do not select a network block device (e.g. NBD, iSCSI, etc.), you may have to wait until timeout."
+msgstr "請勿選擇網路塊設備（例如 NBD，iSCSI 等），可能必須等到超時"
+
+msgid "Timeout (seconds)"
+msgstr "超時（秒）"
+
+msgid "Or until these device(s) ready (UUID):"
+msgstr "或者直到這些磁碟準備好（UUID）："
+
+msgid "Samba expert"
+msgstr "Samba進階設定"
+
+msgid "Allow legacy protocols"
+msgstr "允許舊協議"
+
+msgid "Allow old client, don't use this option for secure environments!"
+msgstr "允許老用戶端連接（例如一些電視盒子或手機），可能有安全風險"
+
+msgid "Sandbox"
+msgstr "沙盒"
+
+msgid "Simple sandbox for OpenWRT"
+msgstr "一個簡易沙盒"
+
+msgid "This action will reboot device"
+msgstr "此操作將重啟設備"
+
+msgid "Commit"
+msgstr "提交"
+
+msgid "Reset"
+msgstr "重設"
+
+msgid "cpufreq/sb_info"
+msgstr "cpufreq/sb_info.zh-cn"
+
+msgid "cpufreq/sb_guide"
+msgstr "cpufreq/sb_guide.zh-cn"
+
+msgid "Network"
+msgstr "網路"
+
+msgid "Hardware Acceleration"
+msgstr "硬體加速"
+
+msgid "Enable PPPoE Acceleration"
+msgstr "啟用PPPoE加速"
+
+msgid "Improve PPPoE TX performace, only support built-in NICs"
+msgstr "提升PPPoE發送（TX）性能，只支持內建網卡"
+
+msgid "Exit Sandbox"
+msgstr "退出沙盒"
+
+msgid "Enable WAN Port Acceleration"
+msgstr "啟用WAN口加速"
+
+msgid "Improve built-in WAN port (eth0) TX performace"
+msgstr "提升WAN口（eth0）發送（TX）性能"
+
+msgid "Drivers"
+msgstr "驅動"
+
+msgid "Drivers Settings"
+msgstr "驅動設置"
+
+msgid "Realtek r8125 driver"
+msgstr "Realtek r8125 驅動"
+
+msgid "Realtek r8168 driver"
+msgstr "Realtek r8168 驅動"
+
+msgid "Backported Intel GPU driver (i915-oot)"
+msgstr "移植 Intel GPU 驅動 (i915-oot)"
+
+msgid "Enable additional drivers"
+msgstr "啟用額外的驅動"
+
+msgid "Configure device drivers, kernel modules, etc. Changes here will take effect on next boot"
+msgstr "配置設備驅動程序，內核模組等。這裡的變更將在下次啟動時生效"
+
+msgid "Please do not choose a driver you do not understand. Choosing the wrong driver may cause the system to fail to start"
+msgstr "請勿選擇不了解的驅動程序，選擇錯誤可能導致系統無法啟動"
+
+msgid "Kernel Cmdline"
+msgstr "內核啟動參數"
+
+msgid "Current Cmdline"
+msgstr "當前內核啟動參數"
+
+msgid "This page configures Linux kernel boot parameters. After saving and applying, the GRUB configuration file of the boot partition will be modified. The parameters will take effect after restarting the system (the boot partition is not within the scope of sandbox protection, please be aware)"
+msgstr "此頁面可配置 Linux 內核啟動參數。保存並應用以後將修改 boot 分區的 GRUB 配置文件，重啟系統以後參數生效（boot分區不在沙盒保護範圍，請知悉）"
+
+msgid "Supports PCI device passthrough for virtual machines (KVM/QEMU)"
+msgstr "用於支持虛擬機（KVM/QEMU）的 PCI 設備直通"
+
+msgid "Parameters"
+msgstr "參數"
+
+msgid "Default"
+msgstr "默認"
+
+msgid "Default or empty will be automatically filled in according to the current platform"
+msgstr "默認或者空將自動按當前平台填寫"
+
+msgid "Custom Parameters"
+msgstr "自訂內核參數"
+
+msgid "Danger! If you do not understand the kernel boot parameters, do not modify them to avoid being unable to start or damaging the hardware"
+msgstr "前方危險！如果不了解內核啟動參數，請勿修改，以免無法啟動或損壞硬體"

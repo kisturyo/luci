@@ -1,0 +1,135 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Netwizard"
+msgstr "設定嚮導"
+
+msgid "Network Router Setup"
+msgstr "網路設定嚮導"
+
+msgid "Network protocol mode selection"
+msgstr "網路協議模式選擇"
+
+msgid "PPPoE dialing"
+msgstr "PPPoE撥號"
+
+msgid "DHCP auto acquire"
+msgstr "DHCP自動獲取"
+
+msgid "Wan Settings"
+msgstr "網路設定"
+
+msgid "wan_interface"
+msgstr "WAN接口"
+
+msgid "Enable DNS notifications (ipv4/ipv6)"
+msgstr "開啟DNS通告(ipv4/ipv6)"
+
+msgid "(The IP of the current LAN)"
+msgstr "(當前LAN的IP)"
+
+msgid "Use local IP for DNS (default)"
+msgstr "本機IP做DNS使用（默認）"
+
+msgid "Wireless Settings"
+msgstr "無線設定"
+
+msgid "Allocate the physical interface of WAN port"
+msgstr "必須指定正確的接光纖數據機(或接上線路由)的物理口"
+
+msgid "interface<font color=\"red\">(*)</font>"
+msgstr "介面<font color=\"red\">(*)</font>"
+
+msgid "Quick network setup wizard. If you need more settings, please enter network - interface to set.</br>"
+msgstr "快速網路設定嚮導，如果需要更多的設定請進入 網路-介面 中設定。</br>"
+
+msgid "The network card is automatically set, and the physical interfaces other than the specified WAN interface are automatically bound as LAN ports, and all side routes are bound as LAN ports.</br>"
+msgstr "自動設定網路介面卡，除指定WAN口物理介面之外的物理介面自動綁定為LAN口，旁路由全綁定為LAN口</br>"
+
+msgid "Four different ways to access the Internet, please choose according to your own situation.</br>"
+msgstr "四種上網方式:DHCP動態獲取/PPPoe撥號/靜態位址/旁路由，請您根據自身情況進行選擇.</br>"
+
+msgid "Set the router's wireless name and password. For more advanced settings, please go to the Network-Wireless page."
+msgstr "設定路由器的無線名稱和密碼，更多進階設定請進入 網路-無線 頁面."
+
+msgid "Other setting"
+msgstr "其它設定"
+
+msgid "For specific usage, see:"
+msgstr "具體使用方法參見："
+
+msgid "SideRouter"
+msgstr "旁路模式"
+
+msgid "Please enter the main routing IP address. The bypass gateway is not the same as the login IP of this bypass WEB and is in the same network segment"
+msgstr "請輸入主路由IP位址，旁路由WEB登陸IP不相同並且必須在一個網段."
+
+msgid "Selecting means that the DHCP server is not enabled. In a network, only one DHCP server is needed to allocate and manage client IPs. If it is a secondary route, it is recommended to turn off the primary routing DHCP server."
+msgstr "選擇表示不開啟DHCP伺服器。在一個網路中，只需要一個DHCP伺服器來分配和管理用戶端IP。如旁路由為DHCP伺服器，須關閉主路由DHCP伺服器。"
+
+msgid "Enable IPv6"
+msgstr "啟用IPv6"
+
+
+msgid "Lan IPv4 address"
+msgstr "內網IP位址"
+
+msgid "You must specify the IP address of this machine, which is the IP address of the web access route"
+msgstr "必須指定此機器IP位址，即該路由WEB訪問的IP位址"
+
+msgid "Lan IPv4 gateway"
+msgstr "網關(主路由IP)"
+
+msgid "Lan IPv4 netmask"
+msgstr "內網子網掩碼"
+
+msgid "Wan IPv4 address"
+msgstr "WAN口IP位址"
+
+msgid "Wan IPv4 netmask"
+msgstr "WAN口子網掩碼"
+
+msgid "Wan IPv4 gateway"
+msgstr "WAN口網關"
+
+msgid "Use iptables to force all TCP/UDP DNS 53ports in IPV4/IPV6 to be forwarded from this route[Suggest opening]"
+msgstr "用iptables強制IPV4/IPV6所有TCP/UDP DNS 53埠走此路由解析[建議打開]"
+
+msgid "Custom firewall"
+msgstr "啟用自訂規則"
+
+msgid "Use custom Wan DNS"
+msgstr "自訂WAN口的DNS"
+
+msgid "Use custom Siderouter DNS"
+msgstr "自訂旁路由DNS"
+
+msgid "Disable DHCP Server"
+msgstr "禁用DHCP伺服器"
+
+msgid "Force the DNS server in the DHCP server to be specified as the IP for this route"
+msgstr "強制指定DHCP伺服器中DNS伺服器為此路由的IP"
+
+msgid "Enable IP dynamic camouflage"
+msgstr "啟用IP動態偽裝"
+
+msgid "Enable IP dynamic camouflage when the side routing network is not ideal"
+msgstr "啟用IP動態偽裝，當旁路網路速度不理想時開啟"
+
+msgid "Enable SYN-flood defense"
+msgstr "啟用 SYN-flood 防禦"
+
+msgid "Enable Firewall SYN-flood defense [Suggest opening]"
+msgstr "啟用防火牆SYN-flood防洪攻擊[建議打開]"
+
+msgid "Firewall regulations"
+msgstr "防火牆規定"
+
+msgid "Bypass firewall settings, when Xiaomi or Huawei are used as the main router, the WIFI signal cannot be used normally"
+msgstr "旁路防火牆設定,當小米或者華為等做為主路由後WIFI信號無法正常使用開啟."
+
+msgid "Show or hide the setup wizard menu. After hiding, you can open the display wizard menu in [Advanced Settings] [Advanced] or use the 3rd function in the background to restore the wizard and default theme."
+msgstr "顯示或隱藏設定嚮導菜單，隱藏後在後台用3號功能恢復嚮導和默認主題。"
+
+msgid "Hide Wizard"
+msgstr "隱藏設定嚮導"

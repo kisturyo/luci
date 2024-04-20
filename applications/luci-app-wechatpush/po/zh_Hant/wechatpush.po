@@ -1,0 +1,1021 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-01 20:00+0000\n"
+"Last-Translator: https://github.com/tty228/luci-app-wechatpush \n"
+"Language-Team: \n"
+"Language: zh_Hant\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Weblate 4.18-dev\n"
+
+#: applications/luci-app-wechatpush/root/usr/share/luci/menu.d/luci-app-wechatpush.json:3
+msgid "WeChat push"
+msgstr "微信推送"
+
+#: applications/luci-app-wechatpush/root/usr/share/luci/menu.d/luci-app-wechatpush.json:15
+msgid "Basic Settings"
+msgstr "基本設定"
+
+#: applications/luci-app-wechatpush/root/usr/share/luci/menu.d/luci-app-wechatpush.json:24
+msgid "Advance Setting"
+msgstr "進階設定"
+
+#: applications/luci-app-wechatpush/root/usr/share/luci/menu.d/luci-app-wechatpush.json:33
+msgid "Online Devices"
+msgstr "在線設備"
+
+#: applications/luci-app-wechatpush/root/usr/share/luci/menu.d/luci-app-wechatpush.json:33
+msgid "Log"
+msgstr "日誌"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:101
+msgid "A tool that can push device messages from OpenWrt to a mobile phone via WeChat or Telegram.<br /><br />If you encounter any issues while using it, please submit them here:"
+msgstr "一個通過微信或 Telegram，從 OpenWrt 上推送設備消息到手機的工具<br /><br />如果你在使用中遇到問題，請到這裡提交："
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:101
+msgid "GitHub Project Address"
+msgstr "GitHub 項目地址"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:124
+msgid "Push Content"
+msgstr "推送內容"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:125
+msgid "Auto Ban"
+msgstr "自動封禁"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:126
+msgid "Scheduled Push"
+msgstr "定時推送"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:127
+msgid "Do Not Disturb"
+msgstr "免打擾"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:134
+msgid "Push Mode"
+msgstr "推送模式"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:135
+msgid "WeChat serverchan"
+msgstr "微信 Server 醬"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:136
+msgid "Using serverchan API, simple configuration, supports multiple push methods"
+msgstr "使用 Server醬 介面，配置較簡單，支持多項推送方式"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:137
+msgid "WeChat Work Image Message"
+msgstr "企業微信 圖文消息"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:138
+msgid "Using WeChat Work application message, more complex configuration, and starting from June 20, 2022, additional configuration for trusted IP is required. Trusted IP cannot be shared. This channel is no longer recommended."
+msgstr "使用 企業微信應用消息，配置較為麻煩，且 2022 年 6 月 20 日之後新創建的應用，需要額外配置可信 IP，可信 IP 不可公用，不再推薦此通道"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:139
+msgid "WeChat Work Markdown Version"
+msgstr "企業微信 markdown 版"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:140
+msgid "WeChat Work application message in plain text format, no need to click the title to view the content, same as above"
+msgstr "企業微信應用消息 純文字版，無需點擊標題查看內容，其他同上"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:142
+msgid "Another channel for WeChat push, the configuration is relatively simple, and only supports official accounts"
+msgstr "微信推送的另一個通道，配置較簡單，只支持公眾號"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:144
+msgid "Another channel for WeChat push, the configuration is relatively simple, and it supports multiple push methods"
+msgstr "微信推送的另一個通道，配置較簡單，支持多項推送方式"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:146
+msgid "Telegram Bot Push"
+msgstr "Telegram bot 推送"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:147
+msgid "Custom Push"
+msgstr "自訂推送"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:148
+msgid "By modifying the JSON file, you can use a custom API"
+msgstr "通過修改 JSON 檔案，使用自訂介面"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:150
+msgid "「wechatpush」sendkey"
+msgstr "「Server醬」sendkey"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:151
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:156
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:184
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:193
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:198
+msgid "Get Instructions"
+msgstr "獲取說明"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:151
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:156
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:184
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:193
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:198
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:203
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:208
+msgid "Click here"
+msgstr "點擊這裡"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:155
+msgid "corpid"
+msgstr "企業ID(corpid)"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:161
+msgid "userid"
+msgstr "帳號(userid)"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:163
+msgid "Send to All App Users, enter @all"
+msgstr "群發到應用請填入 @all"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:167
+msgid "agentid"
+msgstr "應用id(agentid)"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:172
+msgid "Secret"
+msgstr "應用金鑰(Secret)"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:177
+msgid "Thumbnail Image File Path"
+msgstr "圖片縮圖檔案路徑"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:181
+msgid "Supports JPG and PNG formats within 2MB <br> Optimal size: 900383 or 2.35:1"
+msgstr "只支持 2MB 以內 JPG、PNG 格式<br>最佳尺寸：900383 或 2.35:1"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:183
+msgid "Trusted IP address"
+msgstr "可信 IP 位址"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:187
+msgid "If the application was created after June 20, 2022, you need to set the trusted IP. This option should be used in conjunction with a proxy server."
+msgstr "如果是 2022 年 6 月 20 日之後新創建的應用，需設定可信 IP，該選項需配合代理伺服器使用"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:192
+msgid "topicIds(Mass sending)"
+msgstr "topicIds(群發)"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:203
+msgid "Get Bot"
+msgstr "獲取機器人"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:203
+msgid "<br />Send a message to the created bot to initiate a conversation."
+msgstr "<br />與創建的機器人發一條消息，開啟對話"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:208
+msgid "Get chat_id"
+msgstr "獲取 chat_id"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:208
+msgid "<br />If you want to send to a group/channel, please create a non-Chinese group/channel (for easier chatid lookup, you can rename it later).<br />Add the bot to the group, send a message, and use https://api.telegram.org/bot token /getUpdates to obtain the chatid."
+msgstr "<br />如需通過群組/頻道推送，請創建一個非中文的群組或頻道（便於查找 chatid，後續再更名）<br />將機器人添加至群組，發送訊息後通過 https://api.telegram.org/bot token /getUpdates 獲取 chatid"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:226
+msgid "Please refer to the comments and other interface files for modifications. Limited resources, no longer supporting more interfaces, please debug on your own.<br />You can use a similar website to check the JSON file format: https://www.google.com/search?q=JSON+Parser+Online<br />Please use the 「Save」 button in the text box."
+msgstr "請參照注釋和其他介面檔案修改，精力有限，不再支持更多介面，自行除錯<br />請參考類似網站檢查 JSON 檔案格式：https://www.baidu.com/s?wd=json在線解析<br />文本框請使用「保存」按鈕"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:229
+msgid "Proxy Address"
+msgstr "代理地址"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:230
+msgid "When you want to use a proxy to push information, you can use this option.<br/>This may be helpful for scenarios like trusted IPs for WeChat Work.Using special characters may cause sending failure.<br/>Example:<br/>http://username:password@127.0.0.1:1080<br/>socks5://username:password@127.0.0.1:1080"
+msgstr "當你想要使用代理推送資訊時，可以使用這個選項<br/>可能有助於企業微信可信 IP 等情況，預設為空，使用特殊符號可能會造成發送失敗<br/>例子：<br/>http://username:password@127.0.0.1:1080<br/>socks5://username:password@127.0.0.1:1080"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:230
+msgid "Send Test"
+msgstr "發送測試"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:230
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:67
+msgid "You may need to save the configuration before sending."
+msgstr "你可能需要先保存配置再進行發送"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:236
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:578
+msgid "Message sent successfully. If you don't receive the message, please check the logs for manual processing."
+msgstr "發送成功，如果收不到資訊，請查看日誌手動處理"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:238
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:243
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:579
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:584
+msgid "Sending failed"
+msgstr "發送失敗"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:242
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:277
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:350
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:401
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:583
+msgid "Unknown error: %s."
+msgstr "未知錯誤：%s"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:248
+msgid "Device Name"
+msgstr "設備名稱"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:249
+msgid "The device name will be displayed in the push message title to identify the source device of the message."
+msgstr "在推送資訊標題中會標識本設備名稱，用於區分推送資訊的來源設備"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:251
+msgid "Check Interval (s)"
+msgstr "檢測時間間隔（秒）"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:255
+msgid "Shorter intervals provide quicker response but consume more system resources."
+msgstr "越短的時間間隔響應越及時，但會占用更多的系統資源"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:257
+msgid "MAC Device Database"
+msgstr "MAC 設備資料庫"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:259
+msgid "Do not use MAC device database"
+msgstr "不使用 MAC 設備資料庫"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:260
+msgid "Simplified Version"
+msgstr "簡化版"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:261
+msgid "Includes common device manufacturers, occupies approximately 200Kb of space"
+msgstr "僅包含常見設備廠商，約占用 200Kb 空間"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:262
+msgid "Full Version"
+msgstr "完整版"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:263
+msgid "Download the complete database, processed size is approximately 1.3Mb"
+msgstr "下載完整數據，處理後約占用 1.3Mb 空間"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:264
+msgid "Network Query"
+msgstr "網路查詢"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:265
+msgid "Enables network query, slower response. Only use if space is limited."
+msgstr "網路查詢，查詢速度較慢且需要梯子，除非空間緊缺，否則請勿使用"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:267
+msgid "Update MAC Device Database"
+msgstr "更新 MAC 設備資料庫"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:273
+msgid "Database is up to date, skipping update"
+msgstr "已是最新，跳過更新"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:278
+msgid "Browser timeout or unknown error. If the log shows that the update process has been established, please ignore this error: %s."
+msgstr "瀏覽器超時強制退出或未知錯誤，若日誌顯示已建立更新進程，請忽略此錯誤：%s"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:285
+msgid "Reset Traffic Data Every Day at Midnight"
+msgstr "每天零點重設流量數據"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:287
+msgid "Enable Logging"
+msgstr "開啟日誌"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:289
+msgid "Device Alias"
+msgstr "設備別名"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:303
+msgid "Please enter the device MAC and device alias separated by a space, such as:<br/> XX:XX:XX:XX:XX:XX My Phone<br/> 192.168.1.2 My PC<br />Please use the 「Save」 button in the text box."
+msgstr "請輸入設備 MAC 和設備別名，用空格隔開，例如：<br/> XX:XX:XX:XX:XX:XX 我的手機<br/> 192.168.1.2 我的電腦<br />文本框請使用「保存」按鈕"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:306
+msgid "Test IP acquisition command"
+msgstr "測試 IP 獲取命令"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:306
+msgid "IPv4 Dynamic Notification"
+msgstr "IPv4 變動通知"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:309
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:360
+msgid "Obtain through interface"
+msgstr "透過網路介面獲取"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:311
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:362
+msgid "Obtain through URL"
+msgstr "通過 URL 獲取"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:312
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:363
+msgid "May fail due to server stability and frequent connections.<br/>If the interface can obtain the IP address properly, it is not recommended to use this method."
+msgstr "會因伺服器穩定性、連接頻繁等原因導致獲取失敗。<br/>如介面可以正常獲取 IP，不推薦使用此方法。"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:337
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:388
+msgid "Access a random address from the list above,URLs in the list are specific to Chinese websites. If you need to use this feature, please replace the URLs with the ones available to you.<br/>Please use the 「Save」 button in the text box."
+msgstr "從以上列表中隨機訪問地址<br />文本框請使用「保存」按鈕"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:315
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:366
+msgid "Typically, it should be WAN or br-lan interface. For multi-wan environments, please choose accordingly."
+msgstr "一般應為 WAN 或 br-lan 介面。多撥環境請自行選擇。"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:321
+msgid "IPv4 API List"
+msgstr "IPv4 API 列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:339
+msgid "Update IPv4 list"
+msgstr "更新 IPv4 list"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:345
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:396
+msgid "Update successful"
+msgstr "更新成功"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:347
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:351
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:398
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:402
+msgid "Update failed"
+msgstr "更新失敗"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:357
+msgid "IPv6 Dynamic Notification"
+msgstr "IPv6 變動通知"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:372
+msgid "IPv6 API List"
+msgstr "IPv6 API 列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:390
+msgid "Update IPv6 list"
+msgstr "更新 IPv6 list"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:408
+msgid "Automatically update API list"
+msgstr "API 列表自動更新"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:409
+msgid "When multiple IP retrieval attempts fail, try to automatically update the list file from GitHub"
+msgstr "當多次獲取 IP 失敗時，嘗試自動從 GitHub 上更新列表檔案<br/>因為懶得做外鏈，所以請確保你可以連結 raw.githubusercontent.com"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:413
+msgid "Device Online/Offline Notification"
+msgstr "設備上下線通知"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:414
+msgid "Online Notification"
+msgstr "上線通知"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:415
+msgid "Offline Notification"
+msgstr "下線通知"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:418
+msgid "CPU Alert"
+msgstr "CPU 報警"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:419
+msgid "Load Alert"
+msgstr "負載報警"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:420
+msgid "Temperature Alert"
+msgstr "溫度報警"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:422
+msgid "Device alert will be triggered only if it exceeds the set value continuously for five minutes, and there won't be a second reminder within an hour."
+msgstr "設備報警只會在連續五分鐘超過設定值時才會推送，一個小時內不會再提醒第二次。"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:424
+msgid "Load alert threshold"
+msgstr "負載報警閾值"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:451
+msgid "In general, when the load value is lower than the number of logical cores, you typically don\'t need to pay much attention to it"
+msgstr "通常情況下，負載值低於邏輯核心數量時，你不需要關注它"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:433
+msgid "Please enter a numeric value only"
+msgstr "請輸入純數字"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:436
+msgid "Temperature alert threshold"
+msgstr "溫度報警閾值"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:441
+msgid "Please confirm that the device can retrieve temperature. If you need to modify the command, please go to advanced settings."
+msgstr "請確認設備可以獲取溫度。如果需修改命令，請移步進階設定。"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:443
+msgid "Login Notification"
+msgstr "登入提醒"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:444
+msgid "Web Login"
+msgstr "Web 登入"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:445
+msgid "SSH Login"
+msgstr "SSH 登入"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:446
+msgid "Frequent Web Login Errors"
+msgstr "Web 頻繁錯誤登入"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:447
+msgid "Frequent SSH Login Errors"
+msgstr "SSH 頻繁錯誤登入"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:450
+msgid "Login failure count"
+msgstr "登入失敗次數"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:456
+msgid "Send notification after exceeding the count, and optionally auto-ban IP"
+msgstr "超過次數後推送提醒，並可選自動封禁 IP"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:458
+msgid "Device abnormal traffic alert"
+msgstr "設備異常流量警報"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:459
+msgid "Please ensure that you can retrieve device traffic information correctly, otherwise this feature will not work properly"
+msgstr "請確保可以正確獲取設備流量情況，否則此功能無法正常工作"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:462
+msgid "Per-minute traffic limit"
+msgstr "每分鐘流量限制"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:466
+msgid "Abnormal traffic alert (byte), you can append K or M"
+msgstr "設備異常流量警報（byte），你可以追加 K 或者 M"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:468
+msgid "Abnormal traffic do not disturb"
+msgstr "異常流量免打擾"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:472
+msgid "Abnormal traffic monitoring list"
+msgstr "異常流量關注列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:473
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:633
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:639
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:659
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:664
+msgid "Please select device MAC"
+msgstr "請選擇設備 MAC"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:479
+msgid "Auto-ban unauthorized login devices"
+msgstr "自動封禁非法登入設備"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:484
+msgid "Blacklisting time (s)"
+msgstr "封鎖時間（秒）"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:489
+msgid "\"0\" in ipset means permanent blacklist, use with caution. If misconfigured, change the device IP and clear rules in LUCI."
+msgstr "ipset 中, \"0\" 為永久封鎖，慎用。如不幸誤操作，請更改設備 IP 進入 LUCI 界面清空規則"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:491
+msgid "Port knocking"
+msgstr "埠敲門"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:497
+msgid "Port"
+msgstr "埠"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:499
+msgid "Open port after successful login<br/>example：\"22\"、\"21:25\"、\"21:25,135:139\""
+msgstr "登入成功後開放埠<br/>例：\"22\"、\"21:25\"、\"21:25,135:139\""
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:494
+msgid "If you have disabled LAN port inbound and forwarding in Firewall - Zone Settings, it won't work."
+msgstr "如在 防火牆 - 區域設定 中禁用了 LAN 口入站和轉發，該功能將不起作用"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:505
+msgid "Example: Forward port 13389 of this device (IPv4:10.0.0.1 / IPv6:fe80::10:0:0:2) to port 3389 of (IPv4:10.0.0.2 / IPv6:fe80::10:0:0:8)<br/>\"10.0.0.1,13389,10.0.0.2,3389\"<br/>\"fe80::10:0:0:1,13389,fe80::10:0:0:2,3389\""
+msgstr "例：將本機 (IPv4:10.0.0.1 / IPv6:fe80::10:0:0:2) 的 13389 埠轉發到 (IPv4:10.0.0.2 / IPv6:fe80::10:0:0:8) 的 3389 埠:<br/>\"10.0.0.1,13389,10.0.0.2,3389\"<br/>\"fe80::10:0:0:2,13389,fe80::10:0:0:8,3389\""
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:508
+msgid "Release time (s)"
+msgstr "放行時間（秒）"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:494
+msgid "\"0\" in ipset means permanent release, use with caution"
+msgstr "ipset 中, \"0\" 為永久放行，慎用"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:514
+msgid "IP blacklist"
+msgstr "IP 黑名單列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:529
+msgid "You can add or delete here, the numbers after represent the remaining time. When adding, only the IP needs to be entered.<br/>Due to limitations on the web interface, please keep one empty line if you need to clear the content; otherwise, it will not be possible to submit. ╮(╯_╰)╭<br/>Please use the 「Save」 button in the text box."
+msgstr "可在此處添加或刪除，後面的數字為剩餘時間，添加時只需要輸入 IP<br/>由於網頁端的限制，如需清空內容，請保留一處空白的換行，否則內容為空會導致無法提交 ╮(╯_╰)╭<br/>文本框請使用「保存」按鈕"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:535
+msgid "Scheduled sending"
+msgstr "定時發送"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:536
+msgid "Send at the same time every day"
+msgstr "每天固定時間發送"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:537
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:547
+msgid "Interval sending"
+msgstr "間隔發送"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:538
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:555
+msgid "Starting from 00:00, send every * hours"
+msgstr "從 00:00 開始，每 * 小時發送一次"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:540
+msgid "Sending time"
+msgstr "發送時間"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:542
+msgid "Every day"
+msgstr "每天"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:542
+msgid "clock"
+msgstr "點"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:557
+msgid "Push title"
+msgstr "推送標題"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:560
+msgid "OpenWrt Router Status:"
+msgstr "OpenWrt 路由狀態："
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:561
+msgid "Using special characters may cause sending failure"
+msgstr "使用特殊符號可能會造成發送失敗"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:563
+msgid "Push content"
+msgstr "推送內容"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:564
+msgid "System running status"
+msgstr "系統運行情況"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:565
+msgid "Device temperature"
+msgstr "設備溫度"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:566
+msgid "WAN info"
+msgstr "WAN 資訊"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:567
+msgid "Client list"
+msgstr "用戶端列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:572
+msgid "Manual sending"
+msgstr "手動發送"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:572
+msgid "You may need to save the configuration before sending.<br/>Due to browser timeout limitations, if the program is not running, it may exit due to timeout during device list initialization"
+msgstr "你可能需要先保存配置再進行發送<br/>由於瀏覽器超時限制，若程序未在運行，可能會因初始化設備列表超時退出"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:591
+msgid "Simplified mode"
+msgstr "精簡模式"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:592
+msgid "Simplify the current device list"
+msgstr "精簡當前設備列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:593
+msgid "Simplify the current time"
+msgstr "精簡當前時間"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:594
+msgid "Push only the title"
+msgstr "只推送標題"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:596
+msgid "Do Not Disturb time setting"
+msgstr "免打擾時段設定"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:599
+msgid "Mode 1: Script Suspension"
+msgstr "模式一：腳本掛起"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:600
+msgid "Suspend all script actions, including unattended tasks, until the end of the time period"
+msgstr "暫停腳本任何動作，包括無人值守任務，直到時段結束"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:601
+msgid "Mode 2: Silent Mode"
+msgstr "模式二：靜默模式"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:602
+msgid "Stop sending notifications, but log normally"
+msgstr "停止資訊推送，但正常記錄日誌"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:604
+msgid "Do Not Disturb start time"
+msgstr "免打擾開始時間"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:613
+msgid "Do Not Disturb end time"
+msgstr "免打擾結束時間"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:622
+msgid "MAC Filtering Mode 1"
+msgstr "MAC 過濾模式一"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:625
+msgid "Ignore devices in the list"
+msgstr "忽略列表內設備"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:626
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:628
+msgid "Ignored devices will not receive notifications or be logged"
+msgstr "被忽略設備不做推送和日誌記錄"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:627
+msgid "Notify only devices in the list"
+msgstr "僅通知列表內設備"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:629
+msgid "Notify only devices using this interface"
+msgstr "僅通知此介面設備"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:630
+msgid "Multiple selections are not supported at the moment"
+msgstr "暫不支持多選"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:632
+msgid "Ignored device list"
+msgstr "忽略設備列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:637
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:148
+msgid "Followed device list"
+msgstr "關注設備列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:641
+msgid "AA:AA:AA:AA:AA:AA\\|BB:BB:BB:BB:BB:BB Multiple MAC addresses can be treated as the same user.<br/>Notifications will not be sent once any device is online, and notifications will only be sent when all devices are offline to avoid frequent notifications in dual Wi-Fi scenarios."
+msgstr "AA:AA:AA:AA:AA:AA\\|BB:BB:BB:BB:BB:BB 可以將多個 MAC 視為同一用戶<br/>任一設備在線後不再推送，設備全部離線時才會推送，避免雙 wifi 頻繁推送"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:644
+msgid "Notify only devices using this interface"
+msgstr "僅通知此介面設備"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:649
+msgid "MAC Filtering Mode 2"
+msgstr "MAC 過濾模式二"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:652
+msgid "Do Not Disturb when devices are online"
+msgstr "設備在線時免打擾"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:653
+msgid "No notifications will be sent when any device in the list is online"
+msgstr "當列表內任意設備在線時，不推送資訊"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:654
+msgid "Do Not Disturb when devices are offline"
+msgstr "設備離線後免打擾"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:655
+msgid "No notifications will be sent when any device in the list is offline"
+msgstr "當列表內任意設備離線後，不推送資訊"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:657
+msgid "Do Not Disturb device online list"
+msgstr "設備在線免打擾列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:662
+msgid "Do Not Disturb device offline list"
+msgstr "設備離線免打擾列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:682
+msgid "When CPU temperature or load exceeds the threshold continuously for (s) seconds."
+msgstr "當 CPU 溫度或負載超過閾值持續超過（秒）"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:686
+msgid "If set to 0, it's a single check without considering duration."
+msgstr "如果設定為 0，則為單次檢測，不考慮持續時間"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:688
+msgid "CPU alarm quiet time (seconds)"
+msgstr "CPU 報警免打擾時間（秒）"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:692
+msgid "No repeat notifications within the set time after the initial push notification."
+msgstr "首次推送通知後，在設定時間內不再重複提醒"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:667
+msgid "Do Not Disturb for Login Reminders"
+msgstr "登入提醒免打擾"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:670
+msgid "Only record in the log"
+msgstr "僅記錄到日誌"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:671
+msgid "Ignore all login reminders and only record in the log"
+msgstr "忽略所有登入提醒，僅記錄到日誌"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:672
+msgid "Send notification only on the first login"
+msgstr "僅在首次登入時推送通知"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:673
+msgid "Send notification only once within the specified time interval"
+msgstr "在設定時間間隔內，僅首次發送推送通知"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:675
+msgid "Login reminder do not disturb time (s)"
+msgstr "登入提醒免打擾時間（秒）"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:679
+msgid "Send notification after the first login and do not repeat within the specified time<br/>Take a shortcut and read the login time from the log"
+msgstr "首次登入後推送通知，在設定時間內不再重複提醒<br/>偷懶一下，登入時間從日誌中讀取，請確保開啟日誌功能"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:682
+msgid "Login reminder whitelist"
+msgstr "登入提醒白名單"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:689
+msgid "Login reminder log anti-flooding"
+msgstr "登入提醒日誌免洗版"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:690
+msgid "Users in the whitelist or during the undisturbed time period after their first login IP will be exempt from log recording, preventing log flooding."
+msgstr "白名單列表內的用戶，或者登入 IP 處於首次登入後的免打擾時段，不做日誌記錄，避免日誌洗版"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:688
+msgid "Add the IP addresses in the list to the whitelist for the blocking function (if available), and ignore automatic blocking and login event notifications. Only record in the log. Mask notation is currently not supported."
+msgstr "列表內 IP 加入封禁功能白名單(如果可用)，並忽略自動封禁和登入事件推送，僅在日誌中記錄，暫不支持掩碼位表示"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:17
+msgid "If you are not familiar with the meanings of these options, please do not modify them.<br/><br/>"
+msgstr "如果你不了解這些選項的含義，請不要修改這些選項<br/><br/>"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:19
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:23
+msgid "Device online detection timeout (s)"
+msgstr "設備上線檢測超時（秒）"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:28
+msgid "Device offline detection timeout (s)"
+msgstr "設備離線檢測超時（秒）"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:33
+msgid "Offline detection count"
+msgstr "離線檢測次數"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:37
+msgid "If the device has good signal strength and no Wi-Fi sleep issues, you can reduce the above values.<br/>Due to the mysterious nature of Wi-Fi sleep during the night, if you encounter frequent disconnections, please adjust the parameters accordingly.<br/>..╮(╯_╰）╭.."
+msgstr "若設備信號強度良好，無息屏 WiFi 休眠問題，可以減少以上數值<br/>因夜間 WiFi 息屏休眠較為玄學，遇到設備頻繁推送斷開，煩請自行調整參數<br/>..╮(╯_╰）╭.."
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:42
+msgid "Offline timeout applies only to the devices that receive push notifications"
+msgstr "離線超時只針對推送設備"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:45
+msgid "When this option is selected, the offline timeout and offline detection count apply only to the devices that require push notifications. Other devices will use default values, which can significantly reduce the time required for detection. However, it may result in inaccurate online time displayed in the online devices list. It is recommended to enable this option only when there are many devices and frequent offline occurrences are observed for specific devices of interest."
+msgstr "選中此項後，離線超時時間和離線檢測次數只針對需要推送的設備，其餘設備使用預設值，可有效減少檢測所需的時間，但會造成在線設備列表中的在線時間不準確，僅建議設備較多且關注的設備離線頻繁時使用"
+
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:47
+msgid "Disable active detection"
+msgstr "關閉主動探測"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:50
+msgid "Disable active detection of client online status. Enabling this feature will no longer prompt device online/offline events.<br/>Suitable for users who are not sensitive to online devices but need other features."
+msgstr "關閉用戶端線上狀態的主動探測，因誤報較為嚴重，啟用此功能後設備上下線將不再提示<br/>適用於對在線設備不敏感，但需要其他功能的用戶"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:52
+msgid "Maximum concurrent processes"
+msgstr "最大並發進程數"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:56
+msgid "Do not change the setting value for low-performance devices, or reduce the parameters as appropriate."
+msgstr "低性能設備請勿更改設定值，或酌情減少參數"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:58
+msgid "Custom temperature reading command"
+msgstr "自訂溫度讀取命令"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:60
+msgid "Default"
+msgstr "默認"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:61
+msgid "Proxmox Virtual Environment"
+msgstr "PVE 虛擬機"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:62
+msgid "If you need to use special symbols such as quotes, $, !, etc. in custom commands, you need to escape them yourself.<br/>You can use the command eval echo $(uci get wechatpush.wechatpush.soc_code) to view command output and error information.<br/>The execution result should be a pure number (including decimals) for temperature comparison.<br/>Here is an example that does not require escaping:<br/>cat /sys/class/thermal/thermal_zone0/temp|sort -nr|head -n1|cut -c-2"
+msgstr "自訂命令如需使用特殊符號，如引號、$、!等，則需要自行轉義<br/>可以使用 eval echo $(uci get wechatpush.wechatpush.soc_code) 命令查看命令輸出及錯誤資訊<br/>執行結果需為純數位（可帶小數），用於溫度對比<br/>一個無需轉義的例子：<br/>cat /sys/class/thermal/thermal_zone0/temp|sort -nr|head -n1|cut -c-2"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:64
+msgid "Host machine address"
+msgstr "宿主機地址"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:70
+msgid "Host machine SSH port"
+msgstr "宿主機 SSH 埠"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:73
+msgid "The default SSH port is 22. If you have a custom port, please fill in the custom SSH port.<br/>Please make sure you have set up key-based login, otherwise it may cause script errors.<br/>Install the sensors command on PVE by searching on the internet.<br/>Example for key-based login (modify the address and port number accordingly):<br/>opkg update # Update package list<br/>opkg install openssh-client openssh-keygen # Install openssh client<br/>echo -e \"\\n\" | ssh-keygen -t rsa # Generate key file (no passphrase)<br/>pve_host=`uci get wechatpush.config.server_host` || pve_host=\"10.0.0.3\" # Read the PVE host address from the configuration file, If not saved, please fill in by yourself.<br/>pve_port=`uci get wechatpush.config.server_port` || pve_host=\"22\" # Read the PVE host SSH port number from the configuration file, If not saved, please fill in by yourself.<br/>ssh -o StrictHostKeyChecking=yes root@${pve_host} -p ${pve_port} \"tee -a ~/.ssh/OpenWrt_id_rsa.pub\" < ~/.ssh/id_rsa.pub # Transfer public key to PVE<br/>ssh root@${pve_host} -p ${pve_port} \"cat ~/.ssh/OpenWrt_id_rsa.pub >> ~/.ssh/authorized_keys\" # Write public key to PVE<br/>ssh -i /root/.ssh/id_rsa root@${pve_host} -p ${pve_port} sensors # To avoid script errors during the initial connection, please use a private key to connect to PVE and test the temperature command for its proper functioning.<br/>For users who frequently flash firmware, please add /root/.ssh/ to the backup list to avoid duplicate operations."
+msgstr "SSH 埠預設為 22，如有自訂，請填寫自訂 SSH 埠<br/>請確認已經設定好金鑰登陸，否則會引起腳本無法運行等錯誤！<br/>PVE 安裝 sensors 命令自行百度<br/>金鑰登陸例（自行修改地址與埠號）：<br/>opkg update #更新列表<br/>opkg install openssh-client openssh-keygen #安裝openssh用戶端<br/>echo -e \"\\n\" | ssh-keygen -t rsa # 生成金鑰檔案（空密碼）<br/>pve_host=`uci get wechatpush.config.server_host` || pve_host=\"10.0.0.3\" # 讀取配置檔案中的 pve 主機地址，如果未保存設定，請自行填寫 <br/>pve_port=`uci get wechatpush.config.server_port` || pve_host=\"22\" # 讀取配置檔案中的 pve 主機 ssh 埠號，如果未保存設定，請自行填寫 <br/>ssh -o StrictHostKeyChecking=yes root@${pve_host} -p ${pve_port} \"tee -a ~/.ssh/OpenWrt_id_rsa.pub\" < ~/.ssh/id_rsa.pub # 傳送公鑰到 PVE<br/>ssh root@${pve_host} -p ${pve_port} \"cat ~/.ssh/OpenWrt_id_rsa.pub >> ~/.ssh/authorized_keys\" # 寫入公鑰到 PVE<br/>ssh -i /root/.ssh/id_rsa root@${pve_host} -p ${pve_port} sensors # 因首次連接時需要確認，為避免腳本錯誤，請使用私鑰連接 PVE 並測試溫度命令是否正常運行。<br/>刷機黨自行將 /root/.ssh/ 加入備份列表，避免重複操作"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:76
+msgid "Test temperature command"
+msgstr "測試溫度命令"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:82
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/config.js:312
+msgid "Returned value is empty"
+msgstr "返回值為空"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:87
+msgid "Fetch failed："
+msgstr "獲取失敗："
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:91
+msgid "Assist in obtaining device information"
+msgstr "輔助獲取設備列表"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:92
+msgid "Retrieve hostname list from modem"
+msgstr "從光纖數據機獲取主機名等資訊"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:93
+msgid "Scan local IP"
+msgstr "掃描區域網路 IP"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:95
+msgid "When OpenWrt is used as a bypass gateway and cannot obtain device hostnames or a complete list of local network devices.<br/>the \"Retrieve hostname list from modem\" option has only been tested with HG5143F/HN8145V China Telecom gateways and may not be universally applicable.<br/>The \"Scan local IP\" option may not retrieve hostnames, so please use device name annotations in conjunction with it."
+msgstr "適用於 OpenWrt 作為旁路網關，無法獲取設備主機名及完整的區域網路設備列表時<br/>\"從光纖數據機獲取主機名列表\"選項僅測試通過 HG5143F/HN8145V 天翼網關，不保證通用性<br/>\"定期掃描區域網路 IP\"選項可能無法獲取主機名，請配合設備名備註使用"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:97
+msgid "Optical modem login URL"
+msgstr "光纖數據機登入地址 URL"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:102
+msgid "Device list JSON URL"
+msgstr "設備列表 JSON URL"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:105
+msgid "Use F12 console to capture<br/>ip, devName, model are mandatory fields. Example JSON file information:<br/>{\"pc1\":{\"devName\":\"RouterOS\",\"model\":\"\",\"type\":\"pc\",\"ip\":\"192.168.1.7\"}}"
+msgstr "使用 F12 控制台自行抓取<br/>ip、devName、model 為必須項，JSON 檔案資訊範例：<br/>{\"pc1\":{\"devName\":\"RouterOS\",\"model\":\"\",\"type\":\"pc\",\"ip\":\"192.168.1.7\"}}"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:108
+msgid "Optical modem logout URL"
+msgstr "光纖數據機註銷登入 URL"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:111
+msgid "Not a mandatory field, but it may affect other users logging into the web management page, e.g., HG5143F"
+msgstr "非必須項，但可能會影響其他用戶登入 Web 管理頁面，如 HG5143F"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:114
+msgid "Login page account input box ID"
+msgstr "登入頁面帳號輸入框 ID"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:119
+msgid "Login page password input box ID"
+msgstr "登入頁面密碼輸入框 ID"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:122
+msgid "Right-click in the browser and select 'Inspect Element'"
+msgstr "瀏覽器右鍵-檢查元素"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:125
+msgid "Optical modem login account"
+msgstr "光纖數據機登入帳號"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:130
+msgid "Optical modem login password"
+msgstr "光纖數據機登入密碼"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:132
+msgid "Use a regular account, no need for super password"
+msgstr "使用普通帳號即可，不需要超密"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:135
+msgid "IP range to be scanned"
+msgstr "需要掃描的 IP 段"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:140
+msgid "Interval for capturing info"
+msgstr "抓取資訊時間間隔"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:144
+msgid "Generally, frequent capturing is not necessary. Adjust it as needed."
+msgstr "一般不需要頻繁抓取，酌情設定"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:148
+msgid "Unattended tasks"
+msgstr "無人值守任務"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:151
+msgid "Please make sure the script can run properly, otherwise it may cause frequent restarts and other errors!"
+msgstr "請確認腳本可以正常運行，否則可能造成頻繁重啟等錯誤！"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:153
+msgid "Restart zerotier after IP change"
+msgstr "IP 變化後重啟 zerotier"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:154
+msgid "An old issue with zerotier<br/>Cannot reconnect after disconnection, emmm, I don't know if it has been fixed now."
+msgstr "zerotier 的陳年老問題<br/>斷網後不能重新打洞，emmm，我也不知道修了沒有"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:157
+msgid "Redial only during Do-Not-Disturb period"
+msgstr "僅在免打擾時段重撥"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:160
+msgid "Avoid redialing network during the day to prevent waiting for DDNS domain resolution. This feature does not affect disconnection detection.<br/>Due to the issue of certain apps consuming excessive data at night, this feature may be unstable."
+msgstr "避免在白天重撥網路造成 DDNS 域名等待解析，此功能不影響斷網檢測<br/>因夜間某些 APP 偷跑流量問題，該功能可能不穩定"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:165
+msgid "Will only be executed when none of the devices in the list are online.<br/>After an hour of Do-Not-Disturb period, if the devices in the focus list have low traffic (around 100kb/m) for five minutes, they will be considered offline."
+msgstr "只會在列表中設備都不在線時才會執行<br/>免打擾時段一小時後，關注設備五分鐘低流量（約100kb/m）將視為離線"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:169
+msgid "When the network is disconnected"
+msgstr "網路斷開時"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:171
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:179
+msgid "No operation"
+msgstr "無操作"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:172
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:180
+msgid "Restart the router"
+msgstr "重啟路由器"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:173
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:181
+msgid "Redialing network"
+msgstr "重新撥號"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:174
+msgid "The restart operation will occur ten minutes after the network disconnection and will be attempted a maximum of two times. If the option to log in to the optical modem is available, this operation will attempt to restart the optical modem.<br/>【!!This feature cannot guarantee compatibility!!】"
+msgstr "重啟操作將在網路斷開十分鐘後進行，且最多嘗試兩次。如果光纖數據機登入選項可用，此操作將會嘗試重啟光纖數據機。<br/>【！！此功能無法保證相容性！！】"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:177
+msgid "Scheduled reboot"
+msgstr "定時重啟"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:184
+msgid "System uptime greater than"
+msgstr "系統運行時間大於"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:188
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:195
+msgid "Unit: hours"
+msgstr "單位為小時"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/advanced.js:191
+msgid "Network uptime greater than"
+msgstr "網路在線時間大於"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/client.js:14
+msgid "Online time"
+msgstr "在線時間"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/log.js:75
+msgid "Clear Logs..."
+msgstr "清除日誌..."
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/log.js:75
+msgid "Logs cleared successfully!"
+msgstr "日誌清除成功！"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/log.js:81
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/log.js:91
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/log.js:95
+msgid "Clear Logs"
+msgstr "清除日誌"
+
+#: applications/luci-app-wechatpush/htdocs/luci-static/resources/view/wechatpush/log.js:124
+msgid "Refresh every 5 seconds."
+msgstr "每 5 秒刷新"

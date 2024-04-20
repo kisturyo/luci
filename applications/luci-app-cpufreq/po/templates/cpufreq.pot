@@ -1,64 +1,170 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:43
-msgid "<h4>Apply for CPU %s.</h4>"
+msgid "Tuning"
 msgstr ""
 
-#: applications/luci-app-cpufreq/root/usr/share/rpcd/luci/menu.d/luci-app-cpufreq.json:3
-msgid "CPU Freq"
+msgid "CPU Tuning"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:24
-msgid "CPU Freq Settings"
+msgid "Manage CPU performance over LuCI."
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:45
-msgid "CPU Scaling Governor"
+msgid "CPU frequence:"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:64
-msgid "CPU Switching Sampling rate"
+msgid "temperature:"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:71
-msgid "CPU Switching Threshold"
+msgid "CPUFreq governor"
 msgstr ""
 
-#: applications/luci-app-cpufreq/root/usr/share/rpcd/acl.d/luci-app-cpufreq.json:3
-msgid "Grant access to CPUFreq configuration"
+msgid "Default (Take effect after reboot)"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:72
-msgid "Kernel make a decision on whether it should increase the frequency (%)"
+msgid "conservative"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:59
-msgid "Max CPU Freq cannot be lower than Min CPU Freq."
+msgid "userspace"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:53
-msgid "Max Turbo Boost CPU Freq"
+msgid "powersave"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:49
-msgid "Min Idle CPU Freq"
+msgid "ondemand"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:25
-msgid "Set CPU Scaling Governor to Max Performance or Balance Mode"
+msgid "performance"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:65
-msgid ""
-"The sampling rate determines how frequently the governor checks to tune the "
-"CPU (ms)"
+msgid "interactive"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:36
-msgid "Unsupported device!"
+msgid "schedutil"
 msgstr ""
 
-#: applications/luci-app-cpufreq/htdocs/luci-static/resources/view/cpufreq/cpufreq.js:37
-msgid "Your device/kernel does not support CPU frequency scaling."
+msgid "It is recommended to use 'ondemand' or 'schedutil'"
+msgstr ""
+
+msgid "Frequency"
+msgstr ""
+
+msgid "Pay attention to heat dissipation when choosing high frequency"
+msgstr ""
+
+msgid "Fan trigger temperature"
+msgstr ""
+
+msgid "Fan temperature hysteresis"
+msgstr ""
+
+msgid "Set a larger value to avoid frequent restart of the fan"
+msgstr ""
+
+msgid "IPK Mirror"
+msgstr ""
+
+msgid "Select IPK Mirror server"
+msgstr ""
+
+msgid "Mirror server"
+msgstr ""
+
+msgid "Tsinghua University"
+msgstr ""
+
+msgid "USTC"
+msgstr ""
+
+msgid "Alibaba Cloud"
+msgstr ""
+
+msgid "Tencent Cloud"
+msgstr ""
+
+msgid "Boot"
+msgstr ""
+
+msgid "Delay before mounting"
+msgstr ""
+
+msgid "Timeout (seconds)"
+msgstr ""
+
+msgid "Or until these device(s) ready (UUID):"
+msgstr ""
+
+msgid "Samba expert"
+msgstr ""
+
+msgid "Allow legacy protocols"
+msgstr ""
+
+msgid "Allow old client, don't use this option for secure environments!"
+msgstr ""
+
+msgid "Sandbox"
+msgstr ""
+
+msgid "Simple sandbox for OpenWRT"
+msgstr ""
+
+msgid "This action will reboot device"
+msgstr ""
+
+msgid "Commit"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "cpufreq/sb_info"
+msgstr ""
+
+msgid "cpufreq/sb_guide"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+msgid "Hardware Acceleration"
+msgstr ""
+
+msgid "Enable PPPoE Acceleration"
+msgstr ""
+
+msgid "Improve PPPoE TX performace, only support built-in NICs"
+msgstr ""
+
+msgid "Exit Sandbox"
+msgstr ""
+
+msgid "Enable WAN Port Acceleration"
+msgstr ""
+
+msgid "Improve built-in WAN port (eth0) TX performace"
+msgstr ""
+
+msgid "Drivers"
+msgstr ""
+
+msgid "Drivers Settings"
+msgstr ""
+
+msgid "Realtek r8125 driver"
+msgstr ""
+
+msgid "Realtek r8168 driver"
+msgstr ""
+
+msgid "Backported Intel GPU driver (i915-oot)"
+msgstr ""
+
+msgid "Enable additional drivers"
+msgstr ""
+
+msgid "Configure device drivers, kernel modules, etc. Changes here will take effect on next boot"
+msgstr ""
+
+msgid "Please do not choose a driver you do not understand. Choosing the wrong driver may cause the system to fail to start"
 msgstr ""
